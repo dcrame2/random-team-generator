@@ -1,0 +1,29 @@
+.container {
+ 
+}
+
+.container .inner-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.container .inner-container .header-container {
+
+}
+
+.container .inner-container .header-container h1 {
+    font-size: 40px;
+    text-align: center;
+    
+}
+
+.container .inner-container .individual-name-container {
+    display: flex; 
+    justify-content: center;
+    gap: 20px;
+    
+}
+
+.container .inner-container .individual-name-container p {
+    font-size: 20px;
+}

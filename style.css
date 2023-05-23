@@ -5,14 +5,12 @@
 .container .inner-container {
     display: flex;
     flex-direction: column;
+    gap: 50px;
 }
 
-.container .inner-container .header-container {
-
-}
 
 .container .inner-container .header-container h1 {
-    font-size: 40px;
+    font-size: 80px;
     text-align: center;
     
 }
@@ -24,6 +22,15 @@
     
 }
 
-.container .inner-container .individual-name-container p {
-    font-size: 20px;
+.container .inner-container .individual-name-container .name-container {
+    padding: 40px 20px;
+    border: 5px solid #fff;
+    border-radius: 50%;
+    text-align: center;
 }
+
+.container .inner-container .individual-name-container .name-container p {
+    font-size: 24px;
+    min-width: 70px;
+    width: 100%;
+} 

@@ -19,6 +19,7 @@
     display: flex; 
     justify-content: center;
     gap: 20px;
+    height: 600px;
     
 }
 
@@ -27,6 +28,8 @@
     border: 5px solid #fff;
     border-radius: 50%;
     text-align: center;
+    height: 120px;
+    width: 120px;
 }
 
 .container .inner-container .individual-name-container .name-container p {
@@ -34,3 +37,65 @@
     min-width: 70px;
     width: 100%;
 } 
+
+
+@-webkit-keyframes bounce {
+    0%   {transform: translateY(0px);}
+    60% {transform: translateY(400px);}
+    60% {transform: translateY(480px);}
+    70% {transform: translateY(400px);}
+    80% {transform: translateY(380px);}
+    90% {transform: translateY(400px);}
+    100% {transform: translateY(480px);}
+ }
+
+.team-1-fall {
+    border-color:#FF0000!important;
+    color:#FF0000;
+    animation: bounce 1s linear 1;
+    -webkit-animation: bounce 1s linear 1;
+    transform: translateY(480px);
+}
+.team-2-fall {
+    border-color:#00FF00!important;
+    color:#00FF00;
+    animation: bounce 1s linear 1;
+    -webkit-animation: bounce 1s linear 1;
+    transform: translateY(480px);
+}
+.team-3-fall {
+    border-color:#0000FF!important;
+    color:#0000FF;
+    animation: bounce 1s linear 1;
+    -webkit-animation: bounce 1s linear 1;
+    transform: translateY(480px);
+}
+.team-4-fall {
+    border-color:#FF00FF!important;
+    color:#FF00FF;
+    animation: bounce 1s linear 1;
+    -webkit-animation: bounce 1s linear 1;
+    transform: translateY(480px);
+}
+.team-5-fall {
+    border-color:#FFFF00!important;
+    color:#FFFF00;
+    animation: bounce 1s linear 1;
+    -webkit-animation: bounce 1s linear 1;
+    transform: translateY(480px);
+}
+
+.generate-team {
+    height: 75px;
+    border: 5px solid #fff;
+    margin: 0 auto;
+    display: block;
+    padding: 10px 25px;
+    background-color: #000;
+    font-size: 36px;
+}
+.generate-team:hover {
+    cursor: pointer;
+    background-color: #FFF;
+    color: #000;
+}

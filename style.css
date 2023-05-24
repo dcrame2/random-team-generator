@@ -19,8 +19,8 @@
     display: flex; 
     justify-content: center;
     gap: 20px;
-    height: 600px;
-    
+    /* height: 600px; */
+    flex-wrap: wrap;   
 }
 
 .container .inner-container .individual-name-container .name-container {

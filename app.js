@@ -23,10 +23,6 @@ function generateTeam() {
   }
 }
 
-// Add event listener to the reset button
-// const resetButton = document.getElementById("reset-button");
-// resetButton.addEventListener("click", resetTeams);
-
 function resetTeams() {
   const nameContainers = document.getElementsByClassName("name-container");
   [...nameContainers].forEach((container) => {

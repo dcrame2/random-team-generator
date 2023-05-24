@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+body {
+    font-family: 'Open Sans', sans-serif;
+}
 .container {
         display: flex;
         justify-content: center;
@@ -6,15 +10,15 @@
 .container .inner-container {
     display: flex;
     flex-direction: column;
-    gap: 50px;
+    gap: 30px;
     max-width: 1400px;
 }
 
 
 .container .inner-container .header-container h1 {
-    font-size: 80px;
+    font-size: 70px;
     text-align: center;
-    
+    text-transform: uppercase;
 }
 
 .container .inner-container .individual-name-container {
@@ -32,6 +36,7 @@
     text-align: center;
     height: 120px;
     width: 120px;
+    box-shadow: #fff 0px 1px 20px 0px;
 }
 
 .container .inner-container .individual-name-container .name-container p {
@@ -54,6 +59,7 @@
 .team-1-fall {
     border-color:#FF0000!important;
     color:#FF0000;
+    box-shadow: #FF0000 0px 1px 20px 0px !important;
     animation: bounce 1s linear 1;
     -webkit-animation: bounce 1s linear 1;
     transform: translateY(480px);
@@ -61,6 +67,8 @@
 .team-2-fall {
     border-color:#00FF00!important;
     color:#00FF00;
+
+    box-shadow:  #00FF00 0px 1px 20px 0px!important;
     animation: bounce 1s linear 1;
     -webkit-animation: bounce 1s linear 1;
     transform: translateY(480px);
@@ -68,6 +76,7 @@
 .team-3-fall {
     border-color:#0000FF!important;
     color:#0000FF;
+    box-shadow: #0000FF 0px 1px 20px 0px !important;
     animation: bounce 1s linear 1;
     -webkit-animation: bounce 1s linear 1;
     transform: translateY(480px);
@@ -75,6 +84,7 @@
 .team-4-fall {
     border-color:#FF00FF!important;
     color:#FF00FF;
+    box-shadow: #FF00FF 0px 1px 20px 0px !important;
     animation: bounce 1s linear 1;
     -webkit-animation: bounce 1s linear 1;
     transform: translateY(480px);
@@ -82,6 +92,7 @@
 .team-5-fall {
     border-color:#FFFF00!important;
     color:#FFFF00;
+    box-shadow: #FFFF00 0px 1px 20px 0px !important;
     animation: bounce 1s linear 1;
     -webkit-animation: bounce 1s linear 1;
     transform: translateY(480px);
@@ -100,11 +111,13 @@
     padding: 10px 25px;
     background-color: #000;
     font-size: 36px;
+    transition: all ease 0.5s;
 }
 .btn:hover {
     cursor: pointer;
     background-color: #FFF;
     color: #000;
+    transition: all ease 0.5s;
 }
 
 @media (max-width: 1200px) {

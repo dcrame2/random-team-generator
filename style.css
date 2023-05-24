@@ -128,6 +128,26 @@
         min-width: 70px;
         width: 100%;
     } 
+        .team-1-fall {
+            transform: translateY(380px);
+        }
+    
+        .team-2-fall {
+            transform: translateY(380px);
+        }
+    
+        .team-3-fall {
+            transform: translateY(380px);   
+        }
+    
+        .team-4-fall {
+            transform: translateY(380px);
+        }
+    
+        .team-5-fall {
+
+            transform: translateY(380px);
+        }
 }
 @media (max-width: 767px) {
     .container .inner-container .header-container  h1 {
@@ -137,4 +157,25 @@
              font-size: 20px;
              padding: 4px 18px;
          }
+
+           .team-1-fall {
+            transform: translateY(280px);
+        }
+    
+        .team-2-fall {
+            transform: translateY(280px);
+        }
+    
+        .team-3-fall {
+            transform: translateY(280px);   
+        }
+    
+        .team-4-fall {
+            transform: translateY(280px);
+        }
+    
+        .team-5-fall {
+
+            transform: translateY(280px);
+        }
 }

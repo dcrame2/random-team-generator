@@ -85,17 +85,24 @@
     transform: translateY(480px);
 }
 
-.generate-team {
-    height: 75px;
-    border: 5px solid #fff;
-    margin: 0 auto;
-    display: block;
-    padding: 10px 25px;
-    background-color: #000;
-    font-size: 36px;
+.btn-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
 }
-.generate-team:hover {
+
+
+.btn {
+    height: 75px;
+        border: 5px solid #fff;
+        display: block;
+        padding: 10px 25px;
+        background-color: #000;
+        font-size: 36px;
+}
+.btn:hover {
     cursor: pointer;
     background-color: #FFF;
     color: #000;
 }
+

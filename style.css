@@ -44,17 +44,17 @@ body {
     min-width: 70px;
     width: 100%;
 } 
+
+
 @-webkit-keyframes bounce {
     0%   {transform: translateY(0px);}
-    30%  {transform: translateY(480px);}
-    40%  {transform: translateY(350px);}
-    50%  {transform: translateY(480px);}
-    60%  {transform: translateY(380px);}
-    70%  {transform: translateY(480px);}
-    80%  {transform: translateY(390px);}
-    90%  {transform: translateY(480px);}
+    60% {transform: translateY(400px);}
+    60% {transform: translateY(480px);}
+    70% {transform: translateY(400px);}
+    80% {transform: translateY(380px);}
+    90% {transform: translateY(400px);}
     100% {transform: translateY(480px);}
-}
+ }
 
 .team-1-fall {
     border-color:#FF0000!important;

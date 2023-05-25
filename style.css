@@ -74,9 +74,9 @@ body {
     transform: translateY(480px);
 }
 .team-3-fall {
-    border-color:#0000FF!important;
-    color:#0000FF;
-    box-shadow: #0000FF 0px 1px 20px 0px !important;
+    border-color:#00FFFF!important;
+    color:#00FFFF;
+    box-shadow: #00FFFF 0px 1px 20px 0px !important;
     animation: bounce 1s linear 1;
     -webkit-animation: bounce 1s linear 1;
     transform: translateY(480px);
